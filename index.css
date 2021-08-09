@@ -1,0 +1,50 @@
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+h3{
+    font-family: 'Redressed',cursive;
+    
+    
+}
+.sec li{
+    float: right;
+    font-family: monospace;
+    list-style: none;
+   padding-right: 50px;
+   margin-top: 25px;
+   
+    
+    
+}
+.sec li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:black;
+}
+.left{
+    display: flex;
+}
+.banner img{
+      width: 100%;
+      height: 400px;
+      mix-blend-mode: multiply;
+}
+.cont{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+h4{
+    text-align: center;
+    font-family: 'Rhodium Libre', serif;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
