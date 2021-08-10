@@ -48,3 +48,26 @@ h4{
 h2{
     font-family: 'Poppins', sans-serif;
 }
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+footer h3{
+    font-family: roboto;
+    color: white;
+    
+}
+h5{
+    color: rgba(255, 255, 255, 0.59);
+
+}
+footer h4{
+    font-family: roboto;
+    color: white;
+}
+span{
+    color: cyan;
+}
