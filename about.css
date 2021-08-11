@@ -63,7 +63,8 @@ h3{
     justify-content: center;
     flex-direction: column;
 }
-ol{
+.odd ol{
+    padding-left:300px;
     
 }
 .about ol li{
