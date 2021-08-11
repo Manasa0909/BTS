@@ -1,6 +1,7 @@
 body{
     background-color: #FFDEE9;
     background-image: linear-gradient(0deg,#FFDEE9 0%,#B5FFFC 100%);
+    width: auto;
 }
 .first {
     display: flex;
@@ -36,21 +37,34 @@ h3{
 .about{
     margin: 0 100px;
 }
-.even,.odd{
-    display: flex;
+.about{
+    position: relative;
+}
+.even ol{
+    padding-right: 280px;
+   
+}
+.even img{
+    position: absolute;
+    right: 0;
 }
 .even{
-    float: right;
-    flex-direction: row-reverse;
+    display: flex;
+    justify-content: right;
     
 }
 .odd{
-    float: left;
+    display: flex;
+    
+    
 }
 .about ol{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+ol{
+    
 }
 .about ol li{
     padding: 10px 0;
@@ -166,7 +180,7 @@ footer{
     align-items: center;
     flex-wrap: wrap;
     background-color: grey;
-    position: relative;
+   position:relative;
     bottom: 0;
     width: 100%;
     top: 20px;
